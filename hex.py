@@ -41,4 +41,5 @@ if mode == "human":
     print(ascii_string)
 
 if mode == "numOut":
+    xor1 = ' '.join(xor1[i:i+2] for i in range(0, len(xor1), 2))
     print (xor1)
