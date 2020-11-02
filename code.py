@@ -24,3 +24,6 @@ if len(key) < len(inp):
     for i in times-1:
         key = key + org
     key = key + add
+
+if mode == "human":
+     hex = (hex(key) ^ hex(inp))[1:]
