@@ -11,3 +11,16 @@ if(debug):
     print("mode:"+mode)
     print("key: "+key)
     print("inp: "+inp)
+
+if len(key) > len(inp):
+    key = key[:len(inp)]
+
+if len(key) < len(inp):
+    org = key
+    rem = len(inp) % len(key)
+    add = key[:rem]
+
+    times = int(len(inp) / len(key))
+    for i in times-1:
+        key = key + org
+    key = key + add
