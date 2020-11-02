@@ -1,6 +1,0 @@
-key1 = "A"
-key2 = "FISH"
-message1= "hello"
-message2= ")$--."
-message3= "this is a test"
-message4= "f=;!5i:;f(s<#:'"
